@@ -843,6 +843,7 @@ function ControlSlider({
         value={value}
         onChange={(event) => onChange(Number(event.target.value))}
         className="mt-3 w-full"
+        style={{ caretColor: "transparent" }}
       />
     </label>
   );
